@@ -25,7 +25,7 @@ This is a complete automation workflow for resume screening using [n8n](https://
 
 ## 📷 Workflow Overview
 
-![Workflow](images/workflow-overview.png)
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/intial_project.png?raw=true)
 
 ---
 
