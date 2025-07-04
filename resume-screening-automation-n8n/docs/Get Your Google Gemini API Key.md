@@ -23,7 +23,7 @@ Google Gemini is used in this workflow to analyze resumes against job descriptio
 2. Double-click the node  
 3. Under **Credential to connect with**, click **Create New Credentials**
 
-![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/create_credentials.png?raw=true)
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/n8n_gemini_key.png?raw=true)
 4. Paste the **API Key** you copied earlier
 5. Click **Save** and then **Test Connection**
 ---
