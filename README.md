@@ -42,3 +42,10 @@ The final screening output contains structured analysis like this:
   "overall_fit_rating": 8,
   "justification_for_rating": "..."
 }
+```
+
+## Technologies Used
+- n8n (automation engine)
+- Gmail API (trigger)
+- Google Drive & Sheets (storage)
+- Gemini via LangChain (LLM analysis)
