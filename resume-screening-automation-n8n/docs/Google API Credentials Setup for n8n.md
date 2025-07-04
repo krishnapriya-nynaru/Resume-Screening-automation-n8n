@@ -11,7 +11,8 @@ This guide will walk you through connecting Google Drive, Google Sheets, and Gma
 3. Under **Credential to connect with**, click **Create New**.
 4. You'll need the **Client ID** and **Client Secret** from Google Cloud Console.
 
-🖼️ _Add Screenshot: `n8n Google Node Credential Settings`_
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/n8n_credentials.png?raw=true)
+
 
 ---
 
@@ -22,7 +23,7 @@ This guide will walk you through connecting Google Drive, Google Sheets, and Gma
 1. Create a new **Google Cloud Project** (or use an existing one).
 2. Click into your project.
 
-🖼️ _Add Screenshot: `Google Cloud Project Selection`_
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/intial_project.png?raw=true)
 
 ---
 
@@ -36,7 +37,8 @@ Search for and enable the following:
 - ✅ Gmail API  
 - ✅ Google Sheets API  
 
-🖼️ _Add Screenshot: `Google Drive API Enable`_
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/enable_services.png?raw=true)
+
 
 ---
 
@@ -51,7 +53,10 @@ Go to: **APIs & Services → Credentials → Create Credentials**
    - In n8n, copy the **OAuth Redirect URL**
    - Paste that URL here in Google Console
 
-🖼️ _Add Screenshot: `Authorized Redirect URI setup`_
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/create_credentials.png?raw=true)
+
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/create_OAuth.png?raw=true)
+
 
 5. Click **Create**
 6. Download the JSON — you'll need the **Client ID** and **Client Secret**
@@ -87,9 +92,6 @@ Go to: **OAuth Consent Screen → Edit App**
      ```
    - Copy the generated HTTPS domain (e.g., `https://xxxxxxxxxxxx.ngrok-free.app`)
    - Paste only the domain part into **Authorized Domains**
-
-🖼️ _Add Screenshot: `Add Authorized Domain`_
-
 ---
 
 ## 🚀 Step 7: Publish App
