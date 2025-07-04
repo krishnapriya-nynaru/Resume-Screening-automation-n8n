@@ -15,17 +15,18 @@ This is a complete automation workflow for resume screening using [n8n](https://
 
 ## 🚀 Quick Start
 
-1. 🖥️ [Install n8n on Ubuntu](./n8n-installation.md)
-2. 🔐 [Set up Google Credentials](./google-credentials-setup.md)
-3. 📥 Import `AI Resume analyser and screener.json` into n8n
-4. ✅ Trigger workflow with a test email
-5. 📊 Check Drive & Sheets for output
+1. 🖥️ [Install n8n on Ubuntu](./resume-screening-automation-n8n/docs/n8n_installation_ubuntu.md)
+2. 🔐 [Set up Google Credentials](./resume-screening-automation-n8n/docs/Google%20API%20Credentials%20Setup%20for%20n8n.md)
+3. 🤖 [Set up Gemini API Key](./resume-screening-automation-n8n/docs/Get%20Your%20Google%20Gemini%20API%20Key.md)
+4. 📥 Import `AI Resume analyser and screener.json` into n8n
+5. ✅ Trigger workflow with a test email
+6. 📊 Check Drive & Sheets for output
 
 ---
 
 ## 📷 Workflow Overview
 
-![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/intial_project.png?raw=true)
+![alt_text](https://github.com/krishnapriya-nynaru/Resume-Screening-automation-n8n/blob/main/resume-screening-automation-n8n/screenshots/workflow_n8n.png?raw=true)
 
 ---
 
@@ -49,3 +50,24 @@ The final screening output contains structured analysis like this:
 - Gmail API (trigger)
 - Google Drive & Sheets (storage)
 - Gemini via LangChain (LLM analysis)
+
+## Contributing 
+Contributions are welcome! To contribute to this project:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and ensure the code passes all tests.
+4. Submit a pull request with a detailed description of your changes.
+
+## 🙏 Acknowledgements
+
+- [**n8n**](https://n8n.io) – Open-source workflow automation platform powering this entire solution  
+- [**Google Cloud Platform**](https://cloud.google.com) – OAuth, Gmail, Drive, Sheets, and Gemini AI APIs  
+- [**LangChain**](https://www.langchain.com) – Framework for orchestrating LLM agents and tools  
+- [**Google Gemini**](https://deepmind.google/technologies/gemini/) – LLM used for intelligent resume analysis  
+- [**Ngrok**](https://ngrok.com) – Secure tunneling for local development and OAuth redirect handling  
+
+---
+
+✨ Whether you're streamlining recruitment or exploring intelligent automation, this workflow is your launchpad.  
+Happy automating with n8n! ⚡
+
